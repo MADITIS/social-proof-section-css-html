@@ -39,6 +39,7 @@
 body {
     font-family: var(--ff);
     line-height: 1.4;
+    overflow-x: hidden;
 }
 
 
@@ -199,7 +200,9 @@ img {
     .social__info > div {
         flex-basis: 40%;
     }
-
+    .social__info > div:last-child {
+        margin-right: 3.5rem;
+    }
     .social__info .item {
         flex-direction: row;
         gap: var(--spacing-200);
